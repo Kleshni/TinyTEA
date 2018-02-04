@@ -10,7 +10,7 @@ _,p;main(int*q,int**l){for(q=*++l;read(0,&_,1);){for(p=1;p++<65;)M^1]+=M]*16+M^2
 
 It implements the [TEA](https://en.wikipedia.org/wiki/Tiny_Encryption_Algorithm) encryption algorithm in the [OFB](https://en.wikipedia.org/wiki/Output_feedback) mode. See an [equivalent](equivalent.c) programm in readable C.
 
-[Scheme](scheme.png)
+![Scheme](scheme.png)
 
 Build
 -----
