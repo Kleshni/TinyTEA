@@ -5,7 +5,7 @@
 
 static const uint32_t magic = 0x9e3779b9;
 
-static uint32_t TEA_encrypt(uint32_t *block, const uint32_t *key) {
+static void TEA_encrypt(uint32_t *block, const uint32_t *key) {
 	for (uint32_t i = magic; i != magic * 33; i += magic) {
 		block[0] += (block[1] << 4) + key[0] ^ block[1] + i ^ (block[1] >> 5) + key[1];
 		block[1] += (block[0] << 4) + key[2] ^ block[0] + i ^ (block[0] >> 5) + key[3];
