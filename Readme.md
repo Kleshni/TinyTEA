@@ -38,5 +38,5 @@ Links
 * [Source code](https://github.com/Kleshni/TinyTEA/archive/master.zip).
 * [Git repository](https://github.com/Kleshni/TinyTEA.git).
 * [Issue tracker](https://github.com/Kleshni/TinyTEA/issues).
-* Bitmessage: BM-FHMGLusCyAEjonpwAYdxzfcyBszP.
+* Bitmessage: BM-2cT5WWccBgLsHTw5ADLcodTz4dbqdtrwrQ.
 * Mail: [kleshni@protonmail.ch](mailto:kleshni@protonmail.ch).
