@@ -14,10 +14,10 @@ static void TEA_encrypt(uint32_t *block, const uint32_t *key) {
 
 static uint32_t decode_little_endian(const char *encoded) {
 	return (
-		(uint32_t) encoded[0] |
-		(uint32_t) encoded[1] << 8 |
-		(uint32_t) encoded[2] << 16 |
-		(uint32_t) encoded[3] << 24
+		((uint32_t) encoded[0] & 0xff) |
+		((uint32_t) encoded[1] & 0xff) << 8 |
+		((uint32_t) encoded[2] & 0xff) << 16 |
+		((uint32_t) encoded[3] & 0xff) << 24
 	);
 }
 
