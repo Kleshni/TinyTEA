@@ -1,11 +1,11 @@
 TweetTEA
 ========
 
-File encryption tool, that fits in 139 characters:
+File encryption tool, that fits in 138 characters:
 
-```
+``` c
 #define M (*l)[1&p
-_;main(int p,int**l){for(l++;read(0,&_,1);putchar(_^M]))for(p=1;p++<65;)M^1]+=M]*16+M^2]^M]+p/2*0x9e3779b9^M]/32u+M^4];}
+_;main(int p,int**l){for(l++;p=read(0,&_,1);putchar(_^M]))for(;p++<65;)M^1]+=M]*16+M^2]^M]+p/2*0x9e3779b9^M]/32u+M^4];}
 ```
 
 It implements the [TEA](https://en.wikipedia.org/wiki/Tiny_Encryption_Algorithm) encryption algorithm in the [OFB](https://en.wikipedia.org/wiki/Output_feedback) mode. See an [equivalent](equivalent.c) programm in readable C.
@@ -15,7 +15,7 @@ It implements the [TEA](https://en.wikipedia.org/wiki/Tiny_Encryption_Algorithm)
 Build
 -----
 
-```
+``` bash
 $ gcc main.c
 ```
 
@@ -24,7 +24,7 @@ Tested on 64- and 32-bit x86 Linux.
 Use
 ---
 
-```
+``` bash
 $ ./a.out "IIIIIIIIKKKKKKKKKKKKKKKK" < file.txt > encrypted.bin
 ```
 
